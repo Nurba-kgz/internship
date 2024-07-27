@@ -1,4 +1,5 @@
 .App{
+  width: 1000px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -10,27 +11,29 @@
 .card-container{
   display: flex;
   flex-wrap: wrap;
-   justify-content: center;
+  justify-content: center;
   padding: 20px;
 }
 
 .card{
-background-color: #ffffff;
+  display: flex;
+  background-color: #32dcec;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 10px;
   padding: 20px;
   text-align: center;
-  width: 200px;
+  width: 300px;
+  height: 80px;
 }
 
 .card img {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .card h2 {
-  font-size: 1.2em;
   text-transform: capitalize;
+  padding-left: 50px;
 }
